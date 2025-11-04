@@ -9,7 +9,7 @@ namespace VTools.Grid
         [SerializeField] private int _gridYValue = 64;
         [SerializeField] private float _cellSize = 1;
         [SerializeField] private Vector3 _startPosition = new(0, 0);
-        
+
         public Grid Grid { get; private set; }
         
         protected virtual void Start()
