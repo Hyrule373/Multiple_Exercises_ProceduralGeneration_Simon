@@ -408,11 +408,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _gridXValue: 64
   _gridYValue: 64
-  _cellSize: 1
+  _cellSize: 253
   _startPosition: {x: 0, y: 0, z: 0}
   _generationMethod: {fileID: 11400000, guid: 8310081cfc5df6a43946a1800c0fcec6, type: 2}
   _drawDebug: 1
-  _seed: 3
+  _seed: 5
   _stepDelay: 200
 --- !u!4 &1922166660
 Transform:
