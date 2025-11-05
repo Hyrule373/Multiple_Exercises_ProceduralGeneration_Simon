@@ -3,16 +3,20 @@ using Cysharp.Threading.Tasks;
 using System.Threading;
 using UnityEngine;
 using VTools.Grid;
+using VTools.RandomService;
 using VTools.ScriptableObjectDatabase;
 
 [CreateAssetMenu(menuName = "Procedural Generation Method/BSP Placement")]
 public class BSP : ProceduralGenerationMethod
 {
     [Header("Room Parameters")]
-    [SerializeField] private int _maxRooms = 10;
+    [SerializeField] private int _maxRooms = 2;
 
     protected override async UniTask ApplyGeneration(CancellationToken cancellationToken)
     {
+        //RandomService rs;
+        //Node mainParent = new Node();
+
         RectInt baseRect = new RectInt(0, 0, 64, 64);
 
         Split(baseRect);        
@@ -72,9 +76,9 @@ public class BSP : ProceduralGenerationMethod
 
     private void Split(RectInt rect)
     {
-        int x = RandomService.Range(0, 1);
+        bool x = RandomService.Chance(0.5f);
 
-        if (x == 0) //Horizontal
+        if (x == true) //Horizontal
         {
             int Ycut = SplitHorizontal(rect);
 
@@ -89,10 +93,15 @@ public class BSP : ProceduralGenerationMethod
             Debug.Log("toprect: " + topRect);
             Debug.Log("downrect: " + downRect);
 
-            PlaceFirstRoom(topRect);
-            PlaceSecondRoom(downRect);
+            if(topRect.width < 10 || downRect.width < 10)
+            {
+                return;
+            }
+
+            Split(topRect);
+            Split(downRect);
         }
-        else if (x == 1) //Vertical
+        else //Vertical
         {
             int Xcut = SplitVertical(rect);
 
