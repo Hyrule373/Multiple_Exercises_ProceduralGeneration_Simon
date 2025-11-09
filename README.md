@@ -14,10 +14,19 @@
 
 
 ## • Random Map Generator
-• Cellular Automata
+### • Cellular Automata
   Generation of random pixels in the map, and according to the 8 pixels all around, change the pixel. 
+<div align="center">
+  <img src="READ_ME_Images/cellular_exemple.png" alt="Logo" width="500" height="500">
+<div\>
 
 • Noise
+Definition:
+Procedural noise is a mathematical technique used to generate natural-looking randomness in computer graphics, simulations, and procedural content generation. Unlike pure random values, noise functions produce smooth, continuous variations, making them ideal for creating textures, terrains, clouds, and other organic patterns.
+
+Principle:
+The idea behind procedural noise is to generate pseudo-random values based on spatial coordinates (e.g., x, y, z). These values are computed using deterministic mathematical functions, meaning the same input will always produce the same output.
+The result is a continuous field of values that change gradually over space — giving a natural, non-repetitive look.
 
 
 Binary Space Partition :
