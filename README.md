@@ -2,6 +2,19 @@
 
 > To access file code: Open the "Components>ProceduralGeneration" folder.
 
+- [Introduction](#introduction)
+- [DungeonParts](#DungeonParts)
+- [RandomMapGenerator](#RandomMapGenerator)
+
+## How it works
+The ProceduralGridGenerator contains the main algortithm.
+<div align="center">
+  <img src="READ_ME_Images/HowitWorks/PGGenarator.png" alt="Logo" width="500" height="500">
+</div>
+
+You can change the Script here depending on your procedural generation method. 
+
+
 ## Dungeons Parts
 ### • Simple Room Placement
   This algorithms generates random square into a square with defined length and width,
@@ -12,6 +25,7 @@
 ### • Binary Space Partition
   The core idea of BSP is to break down a complex space (for example, a 2D or 3D environment) into smaller, more manageable regions. This division is done recursively by choosing a plane (in 3D) or a line (in 2D) that splits the space into two parts:
 
+Code Made by Yona Rutkowski
 
 ## • Random Map Generator
 ### • Cellular Automata
