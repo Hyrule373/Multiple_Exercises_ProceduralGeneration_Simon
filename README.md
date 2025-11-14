@@ -9,11 +9,16 @@
 ## How it works
 The ProceduralGridGenerator contains the main algortithm.
 <div align="center">
-  <img src="READ_ME_Images/HowitWorks/PGGenarator.png" alt="Logo" width="500" height="500">
+  <img src="READ_ME_Images/HowItWorks/PGGenerator.png" alt="Logo" width="500" height="500">
 </div>
 
-You can change the Script here depending on your procedural generation method. 
+You have to create a ScriptableObject in order to make your program.
+You can choose existing Procedural Program via Assets/Components/Procedural Generation
 
+You can change the Script by Drag and Drop here depending on your procedural generation method. 
+<div align="center">
+  <img src="READ_ME_Images/HowItWorks/PGG_Menu.png" alt="Logo" width="500" height="500">
+</div>
 
 ## Dungeons Parts
 ### • Simple Room Placement
