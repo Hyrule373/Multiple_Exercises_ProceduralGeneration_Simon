@@ -8,11 +8,11 @@
 
 ## How it works
 • The ProceduralGridGenerator contains the main algortithm.
-<div align="center">
-  <img src="READ_ME_Images/HowItWorks/PGGenerator.png" alt="PGGenerator" width="500" height="500">
-</div>
+<br>
+<img src="READ_ME_Images/HowItWorks/PGGenerator.png" alt="PGGenerator" width="500" height="500">
 
 _ApplyGeneration()_ is used to create your Initialize your Procedural Programm.
+<br>
 <img width="985" height="419" alt="image" src="https://github.com/user-attachments/assets/06807bbd-8878-4f7e-be27-9cb50af5ed48" />
 
 You have to create a ScriptableObject in order to make your program.
@@ -50,15 +50,15 @@ Procedural noise is a mathematical technique used to generate natural-looking ra
 The idea behind procedural noise is to generate pseudo-random values based on spatial coordinates (e.g., x, y, z). These values are computed using deterministic mathematical functions, meaning the same input will always produce the same output.
 The result is a continuous field of values that change gradually over space — giving a natural, non-repetitive look.
 
-The Noise system is based on this project where can you can have more info on how it works 
+The Noise system is based on this project: 
 <a href="[url](https://github.com/Auburn/FastNoiseLite)">https://github.com/Auburn/FastNoiseLite</a>
 
 **• How Tile Depth Works** 
-<br>
+<br> <br>
 Tile Depth is a range between -1 to +1, it'll defined the occurrence of the tile.
 <br>
 First Tile Depth is between -1f to the defined range.
 <br>
 The last Tiel Depth will be between the defined range to +1f.
-<br>
-<img src="READ_ME_Images/GGG_Tile_Depth.png" alt="PGG_Tile_Depth" width="200" height="500">
+<br> <br>
+<img src="READ_ME_Images/HowItWorks/GPP_Tile_Depth.png" alt="GPP_Tile_Depth" width="500" height="1500">
