@@ -6,12 +6,17 @@
 - [Dungeon-Parts](#Dungeon-Parts)
 - [Random-Map-Generator](#Random-Map-Generator)
 
+## **• Generals**
+This Project is made with UNITY
+<br>
+You can use many algorithm to create Procedural Programs.
+
 ## How it works
 • The ProceduralGridGenerator contains the main algortithm.
 <br>
 <img src="READ_ME_Images/HowItWorks/PGGenerator.png" alt="PGGenerator" width="500" height="500">
 
-_ApplyGeneration()_ is used to create your Initialize your Procedural Programm.
+_ApplyGeneration()_ is used to create your Initialize your Procedural Programs.
 <br>
 <img width="985" height="419" alt="image" src="https://github.com/user-attachments/assets/06807bbd-8878-4f7e-be27-9cb50af5ed48" />
 
