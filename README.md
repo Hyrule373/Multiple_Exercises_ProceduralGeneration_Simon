@@ -61,4 +61,4 @@ First Tile Depth is between -1f to the defined range.
 <br>
 The last Tiel Depth will be between the defined range to +1f.
 <br>
-<img src="READ_ME_Images/PGG_Tile_Depth.png" alt="PGG_Tile_Depth" width="200" height="500">
+<img src="READ_ME_Images/GGG_Tile_Depth.png" alt="PGG_Tile_Depth" width="200" height="500">
