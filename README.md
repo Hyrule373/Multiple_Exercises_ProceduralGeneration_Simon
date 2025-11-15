@@ -9,7 +9,7 @@
 ## How it works
 • The ProceduralGridGenerator contains the main algortithm.
 <div align="center">
-  <img src="READ_ME_Images/HowItWorks/PGGenerator.png" alt="Logo" width="500" height="500">
+  <img src="READ_ME_Images/HowItWorks/PGGenerator.png" alt="PGGenerator" width="500" height="500">
 </div>
 
 _ApplyGeneration()_ is used to create your Initialize your Procedural Programm.
@@ -20,7 +20,7 @@ You can choose existing Procedural Program via Assets/Components/Procedural Gene
 
 • You can change the Script by Drag and Drop here depending on your procedural generation method. 
 <div align="center">
-  <img src="READ_ME_Images/HowItWorks/PGG_Menu.png" alt="Logo" width="300" height="500">
+  <img src="READ_ME_Images/HowItWorks/PGG_Menu.png" alt="PGG_Menu" width="300" height="500">
 </div>
 
 ## Dungeons Parts
@@ -39,7 +39,7 @@ _Code Made by Yona Rutkowski_
 ### • Cellular Automata
   Generation of random pixels in the map, and according to the 8 pixels all around, change the pixel. 
 <div align="center">
-  <img src="READ_ME_Images/cellular_exemple.png" alt="Logo" width="500" height="500">
+  <img src="READ_ME_Images/cellular_exemple.png" alt="cellular_exemple" width="500" height="500">
 </div>
 
 ### • Noise
@@ -61,4 +61,4 @@ First Tile Depth is between -1f to the defined range.
 <br>
 The last Tiel Depth will be between the defined range to +1f.
 <br>
-<img src="READ_ME_Images/PGG_Tile_Depth.png" alt="Logo" width="200" height="500">
+<img src="READ_ME_Images/PGG_Tile_Depth.png" alt="PGG_Tile_Depth" width="200" height="500">
