@@ -43,13 +43,22 @@ _Code Made by Yona Rutkowski_
 </div>
 
 ### • Noise
-<ins>Definition</ins> <br>
+<ins>**Definition**</ins> <br>
 Procedural noise is a mathematical technique used to generate natural-looking randomness in computer graphics, simulations, and procedural content generation. Unlike pure random values, noise functions produce smooth, continuous variations, making them ideal for creating textures, terrains, clouds, and other organic patterns.
 
-<ins>Principle</ins> <br>
+<ins>**Principle**</ins> <br>
 The idea behind procedural noise is to generate pseudo-random values based on spatial coordinates (e.g., x, y, z). These values are computed using deterministic mathematical functions, meaning the same input will always produce the same output.
 The result is a continuous field of values that change gradually over space — giving a natural, non-repetitive look.
 
 The Noise system is based on this project where can you can have more info on how it works 
 <a href="[url](https://github.com/Auburn/FastNoiseLite)">https://github.com/Auburn/FastNoiseLite</a>
 
+**• How Tile Depth Works** 
+<br>
+Tile Depth is a range between -1 to +1, it'll defined the occurrence of the tile.
+<br>
+First Tile Depth is between -1f to the defined range.
+<br>
+The last Tiel Depth will be between the defined range to +1f.
+<br>
+<img src="READ_ME_Images/PGG_Tile_Depth.png" alt="Logo" width="200" height="500">
